@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lexend+Deca:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Sai Navyanth</title>
+</head>
+<body>
+    <div class="navigation">
+        <!-- <div class="hanburgerIcon" onclick="toggleNavigationMenu()" id="hanburgerIconId"><i class="fa fa-bars" ></i></div> -->
+        <nav class="navigationPane" id="hamburgerMenu">
+            <div class="myPhoto">
+                <img src="assets/profilePhoto.jpeg" alt="About Image">
+            </div>
+            <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#awards">Awards/Achievements</a></li>
+            <li><a href="#leadership">Leadership/Activities</a></li>
+
+            </ul>
+        </nav>
+        <div class="hanburgerIconMob" onclick="toggleNavigationMenuMob()" id="hanburgerIconIdMobile"><i class="fa fa-bars" ></i></div>
+        <nav class="navigationPaneMob" id="hamburgerMenuMob">
+            <div class="myPhoto">
+                <img src="assets/profilePhoto.jpeg" alt="About Image">
+            </div>
+            <ul>
+            <li><a href="#about" onclick="toggleNavigationMenuMob()">About</a></li>
+            <li><a href="#education" onclick="toggleNavigationMenuMob()">Education</a></li>
+            <li><a href="#experience" onclick="toggleNavigationMenuMob()">Experience</a></li>
+            <li><a href="#skills" onclick="toggleNavigationMenuMob()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleNavigationMenuMob()">Projects</a></li>
+            <li><a href="#awards" onclick="toggleNavigationMenuMob()">Awards/Achievements</a></li>
+            <li><a href="#leadership" onclick="toggleNavigationMenuMob()">Leadership/Activities</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+    <div class="about-page" id="about">
+        <section>
+            <div class="description">
+
+                <h1>Hi, I'm Sai Navyanth Penumaka</h1>
+
+                <p>I am an incoming Master's student at New York University majoring in Computer Engineering. With 2.5 years of experience as a Software Development Engineer at Flipkart, India's leading e-commerce company and a Walmart subsidiary, I have honed my skills in developing high-impact software solutions. At Flipkart, I played a pivotal role in creating innovative back-end services and optimizing system performance, consistently delivering solutions that drive business success. My passion lies in leveraging technology to create meaningful impacts in people's daily lives. Explore my journey, projects, and aspirations as I strive to push the boundaries of innovation in Computer Science.</p>
+
+
+
+                <h3>Contact me at sp8138@nyu.edu</h3>
+
+                <a href="assets/Navyanth_Resume_Jul_04_2024.pdf" download="Navyanth_Resume_Jul_04_2024.pdf" class="resume-button">Download Resume</a>
+
+            </div>
+
+
+            <div class="contactDiv">
+                <ul>
+                    <li><a href="mailto:snpenumaka@gmail.com"><i class="fa fa-envelope"> </i></a></li>
+                    <li><a href="https://www.linkedin.com/in/sai-navyanth-p/"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/navyanth___"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <div class="parentEducation" id="education">
+        <div class="education-page">
+            <section>
+                <div class="educationClass">
+                    <h2 class="sectionHeader">Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>New York University</h3>
+                            <p> 2024 - 2026 </p>
+                            <p> Master of Science in Computer Engineering</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Indian Institute of Technology Bhubaneswar</h3>
+                            <p> 2018 - 2022 </p>
+                            <p> B.Tech (Honors) in Electrical Engineering</p>
+                            <p> Thesis: Detection of COVID-19 using chest X-rays using Machine Learning</p>
+                            <p> CGPA: 3.77/4.0 </p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Velociity Junior College</h3>
+                            <p> 2016 - 2018</p>
+                            <p> TSBIE, MPC</p>
+                            <p> 97.5% </p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3> S.R High School</h3>
+                            <p> 2015 - 2016</p>
+                            <p> School of Secondary Education, Telangana State Board</p>
+                            <p> CGPA: 9.8 </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <div>
+    <div class="parentExperience" id="experience">
+        <div class="experience-page">
+            <section >
+                <div class="experienceClass">
+                    <h2 class="sectionHeader">Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>Flipkart, a Walmart Company</h3>
+                            <p> Software Development Engineer</p>
+                            <p> Jun 2022 - Present </p>
+                            <p>• Architected and coded critical back-end services (Offer & Price recommendation), contributing significantly to $ 7B</p>
+                            <p>• Spearheaded the revamp of the offers system, where sellers can opt-in, modify, and opt-out of offers. Designed and
+                            programmed APIs, resulting in a 50% increase in offer opt-ins and a 75% reduction in API latencies</p>
+                            <p>• Successfully upgraded a critical MySQL cluster from version 5.6 to 5.7 and optimized tables, reducing disk space usage
+                            from 91% to 30%, CPU utilization from 17% to 5%, and latency by 50%.</p>
+                            <p>• Spearheaded the creation of ‘Seller Penalization System’ from conception to implementation using Java, Elasticsearch,
+                            Kafka, and Apache Spark, achieving a substantial 10% reduction in returns and enhancing product quality</p>
+                            <p>• Single-handedly engineered and developed the ‘rewards-serving’ service from the ground up using Java, enabling
+                            sellers to manage rewards through a dashboard, achieving a 400% return (RPC = 5)</p>
+                            <p>• Architected rewards-serving through high-level (HLD) and low-level design (LLD), built Dropwizard Java Application
+                            powered by Elasticsearch database, engineered APIs, and set up CI/CD pipelines and Kubernetes infrastructure</p>
+                            <p>• Automated troubleshooting of seller escalations and system issues by creating a self-service dashboard, reducing manual
+                            resolution time by 80%. Notably, automation of MySQL archival reduced KTLO by 100%</p>
+                            <p>• Created price-recommendation models using Spark & Scala, boosting weekly adoptions from 93K to 246K (165%)</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Flipkart, a Walmart Company</h3>
+                            <p> Software Engineer Intern</p>
+                            <p> May 2021 - July 2021</p>
+                            <p> • Reduced Scribe’s CPU utilization from 70% to 14% and increased HTML to PDF rendering speed by 3 times</p>
+                            <p> • Implemented and conducted load testing on 3 solutions, each yielding a minimum 40% reduction in CPU utilization</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+        <div class="parentSkills" id="skills">
+        <div class="skills-page">
+            <section>
+                <div class="skillsClass">
+                    <h2 class="sectionHeader">Skills</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>Technical Skills</h3>
+                            <p> • Programming Languages: Java, C, C++, Python, Scala, JavaScript, MATLAB</p>
+                            <p> • Web Development: 1) Front-end: HTML, CSS, Javascript, React.js; 2) Back-end: REST APIs, Database Systems</p>
+                            <p> • Machine Learning: ML Algorithms, Neural Networks, Natural Language Processing, Keras, Numpy, Sklearn, TensorFlow</p>
+                            <p> • CS Fundamentals: Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Networks</p>
+                            <p> • Others: Git, MySQL, Elasticsearch, Kafka, CI/CD, APIs, Distributed Systems, Design Patterns, Debezium, High Level Design, Low Level Design, Apache Spark, Kubernetes, Hibernate, Google Guice, Unix, Linux, Dropwizard and Spring</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <div>
+
+    <div class="parentProjects" id="projects">
+        <div class="projects-page">
+            <section>
+                <div class="projectsClass">
+                    <h2 class="sectionHeader">Projects</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>Course Registration System</h3>
+                            <p> Java, Web Development</p>
+                            <p> • Designed and developed a robust RESTful Web Application using Java and MySQL adhering to SOLID principles.</p>
+                            <p> • Students can add, delete, or drop courses and check grades while professors choose courses to teach and submit grades</p>
+                            <!-- <p>Tech Stack:- </p> -->
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Stock Price Prediction</h3>
+                            <p> Python, Machine Learning</p>
+                            <p> • Created an LSTM-based deep learning model for predicting stock prices, achieving a remarkable RMSE of 1.5 (<1%)</p>
+                            <!-- <p> Tech Stack:- </p> -->
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Hand-Written Digit Recognition</h3>
+                            <p> Python, Machine Learning</p>
+                            <p> • Constructed a Convolutional Neural Network using Keras to classify images of handwritten digits (0-9) and achieved an accuracy of 99.39% on a test set of 10,000 samples</p>
+                            <!-- <p>Tech Stack:- </p> -->
+                        </div>
+                        <div class="timeline-item">
+                            <h3> Noise Cancellation Algorithm MATLAB</h3>
+                            <p>  MATLAB Digital Signal Processing</p>
+                            <p> • Built an algorithm that detects the speech portions and filters out the noise portions of a speech signal using MATLAB</p>
+                            <p> • Additionally, determined the gender of the speaker using short-term auto-correlation values and Fast Fourier Transform</p>
+                            <!-- <p>Tech Stack:- </p> -->
+                        </div>
+                        <div class="timeline-item">
+                            <h3> Price Recommendation Model Python</h3>
+                            <p>  Python, Machine Learning</p>
+                            <p> • Built an ML model(Random Forest Regressor) that utilizes price-sale data of similar products to predict the optimal price for maximizing sales of the given product.</p>
+                            <p> • Secured 3rd place in the hackathon organized by Flipkart for this project.</p>
+                            <!-- <p>Tech Stack:- </p> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <div>
+
+    <div class="parentAwards" id="awards">
+        <div class="awards-page">
+            <section>
+                <div class="awardsClass">
+                    <h2 class="sectionHeader">Awards/Achievements</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>Awards</h3>
+                            <p> • Awarded prestigious ‘Instant Karma’ Employee Achievement Award for outstanding contributions, Q4 2022
+                            <p> • Achieved 3rd place in the company-wide Hackathon for building a Price Recommendation Model using ML</p>
+                            <p> • Won IEEE Bhubaneswar Subsection’s National Level Coding Competition, among 3850 applicants</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Achievements</h3>
+                            <p> • Attained an All India Rank of 1301 out of 1.3 million competitors in the IIT Joint Entrance Examination 2018</p>
+                            <p> • Selected by Professor to represent IIT BBS in INTER IIT TECHMEET at IIT Roorkee for a Technological case study</p>
+                            <p> • Represented IIT Bhubaneswar in Smart India Hackathon 2020 (selected through an internal hackathon)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <div>
+
+    <div class="parentLeadership" id="leadership">
+        <div class="leadership-page">
+            <section>
+                <div class="leadershipClass">
+                    <h2 class="sectionHeader">Leadership/Activities</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>General Secretary | Alumni Cell and International Affairs, IIT Bhubaneswar | 2021 – 2022</h3>
+                            <!-- <p> Alumni Cell and International Affairs, IIT Bhubaneswar 2021 – 2022</p> -->
+                            <p> • Elected by the students of IIT Bhubaneswar to lead a 45-member team and represent them at Alumni/Senate meetings</p>
+                            <p>• Bridged the gap between students and alumni by conducting various events and informative sessions with alumni</p>
+                            <p>• Responsible for maintaining relations, tracking alumni success stories, publishing newsletters, maintaining alumni data</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Student Internship Coordinator | Career Development Cell, IIT Bhubaneswar | 2020 – 2021</h3>
+                            <!-- <p> Career Development Cell, IIT Bhubaneswar 2020 – 2021</p> -->
+                            <p> • Invited companies to hire IIT Bhubaneswar students for summer internships, ensured smooth conduct of interviews and coding rounds, achieving 100% internship placement</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Marketing Core Team Member | Wissenaire, IIT Bhubaneswar | 2019 – 2020</h3>
+                            <!-- <p> Wissenaire, IIT Bhubaneswar 2019 – 2020</p> -->
+                            <p> • Organized and conducted techno-management fest comprising Hackathons, Competitions, Seminars, TEDx Talks, Expos</p>
+                            <p> • Secured sponsorships from companies and guided a team of 21 juniors in doing the same</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3> Core Team Member | Neuromancers, IIT Bhubaneswar | 2019 – 2020</h3>
+                            <!-- <p>  Neuromancers, IIT Bhubaneswar 2019 – 2020</p> -->
+                            <p> • Mentored juniors in learning advanced computer science topics, building projects, and improving coding skills. Actively participated in coding contests, built several projects, and formulated Coding/Machine Learning roadmaps for juniors</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3> Student Guide | Counselling Service Team, IIT Bhubaneswar | 2019 – 2020</h3>
+                            <!-- <p>  Counselling Service Team, IIT Bhubaneswar 2019 – 2020</p> -->
+                            <p> • Selected as a SG along with 34 sophomores to lead event organization, offer guidance, and mentor incoming freshmen</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <div>
+
+
+    <nav class="footerPane">
+        <p> &#169; 2024 Sai Navyanth Penumaka </p>
+    </nav>
+</body>
